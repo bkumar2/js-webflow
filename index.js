@@ -1,7 +1,8 @@
-import Step from './Step.js';
+import FlowStep from './FlowStep.js';
+import EndStep from './EndStep.js';
 import HttpStep from './HttpStep.js';
 
-var step = new Step({
+var flowStep = new FlowStep(null, {
     id: "flow1",
     startAt: "step1",
     steps: [{
@@ -25,4 +26,4 @@ var step = new Step({
     ]
 });
 
-step.execute();
+flowStep.execute();
