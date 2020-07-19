@@ -1,0 +1,12 @@
+{
+  "name": "js-webflow",
+  "version": "1.0.0",
+  "description": "Library that sets up a web flow for javascript based applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "type": "module"
+}
